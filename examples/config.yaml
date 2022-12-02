@@ -1,0 +1,7 @@
+defaults:
+  PORT: 3000
+required:
+  - HOST
+local:
+  DB_NAME: "local_db"
+  HOST: "0.0.0.0"
