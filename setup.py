@@ -1,12 +1,11 @@
 #!/usr/bin/env python
-from platform import python_version
 
-from setuptools import find_packages, setup
+from setuptools import setup
 
 install_requires = open("requirements.txt").readlines()
 
 setup(
-    name="envvar",
+    name="py-envvar",
     version="0.0.1",
     description="Easiest way to deal with env vars",
     long_description=open("README.md", encoding="utf8").read(),
