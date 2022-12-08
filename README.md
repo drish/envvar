@@ -6,6 +6,7 @@ This is an opnionated utility package for handling environment variables, it han
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![Build](https://github.com/drish/envvar/actions/workflows/test.yaml/badge.svg)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
+[![codecov](https://codecov.io/gh/drish/envvar/branch/main/graph/badge.svg?token=GGD39PPFM0)](https://codecov.io/gh/drish/envvar)
 ---
 
 # Example config yaml
