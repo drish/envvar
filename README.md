@@ -3,17 +3,17 @@
 The easiest way to handle env vars.
 
 This is an opnionated utility package for handling environment variables, it handles defaults and required env vars all in one simple config file.
-
----
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![Build](https://github.com/drish/envvar/actions/workflows/test.yaml/badge.svg)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
+---
 
 # Example config yaml
 
 ```yaml
 required:
   - DB_NAME
+  - HOST
 defaults:
   TOKEN: "_token_"
   HOST: "0.0.0.0"
@@ -32,8 +32,7 @@ test:
 
 ```python
 import os
-from envvar import load # pip installs py-envvar but import is envvar only
+from envvar import load # import envvar instead of py-envvar
 
-load("./config.yaml", "local")
-
+load("./config.yaml", "local") # raises when a required env var is not set
 ```
