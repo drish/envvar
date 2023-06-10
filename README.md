@@ -3,6 +3,8 @@
 The easiest way to handle env vars.
 
 This is an opnionated utility package for handling environment variables, it handles defaults and required env vars all in one simple config file.
+
+
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![Build](https://github.com/drish/envvar/actions/workflows/test.yaml/badge.svg)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
